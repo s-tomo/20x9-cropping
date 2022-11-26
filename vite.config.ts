@@ -4,6 +4,7 @@ import reactRefresh from '@vitejs/plugin-react-refresh';
 
 export default defineConfig({
   plugins: [tsconfigPaths(), reactRefresh()],
+  base: './',
   build: {
     outDir: 'public'
   }
